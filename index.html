@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PythonDocumentation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar" class="navbar">
+        <header class="nav-header"><p>Python Documentation</p></header>
+        <ul>
+            <li><a href="#introduction" class="nav-link">Introduction</a></li>
+            <li><a href="#HelloWorld" class="nav-link">HelloWorld</a></li>
+            <li><a href="#variables" class="nav-link">Variables</a></li>
+            <li><a href="#constants" class="nav-link">Constants</a></li>
+            <li><a href="#Global_variables" class="nav-link">Global variables</a></li>
+            <li><a href="#Data_Types" class="nav-link">Data Types</a></li>
+        </ul>
+    </nav>
+    <main class="main-doc" id="main-doc">
+        <section class="main-section" id="introduction">
+            <header>
+                <h1>introduction</h1>
+            </header>
+                <h3>What is python?</h3>
+                <p>
+                    Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together. Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance. Python supports modules and packages, which encourages program modularity and code reuse. The Python interpreter and the extensive standard library are available in source or binary form without charge for all major platforms, and can be freely distributed.
+                </p>
+                <h3>what is python mostly used for?</h3>
+                <div class="python-used">
+                    <p>python is commonly used in:</p>
+                    <ul>
+                        <li>data science</li>
+                        <li>data analysis</li>
+                        <li>machine learning</li>
+                        <li>data engineering</li>
+                        <li>task automation</li>
+                        <li>the server side of web applications</li>
+                    </ul>
+                    
+                </div>
+                <h3>why python?</h3>
+                <p>Its simple and readable syntax makes it accessible for beginners, while its versatility and extensive libraries make it powerful for advanced applications.</p>
+        </section>
+        <section class="main-section" id="HelloWorld">
+            <header><h1>Hello World</h1></header>
+            <p>to get started with writing python, open your code editor and write your first "Hello world" python code:
+            </p>
+            <div class="code">
+                <code>print("Hello world")</code>
+            </div>
+            
+            <p>select the code to your code editor pess run and watch it printed in your console</p>
+        </section>
+        <section class="main-section" id="variables">
+            <header><h1>Variables</h1></header>
+            <h3>what is a variable in python</h3>
+            <p>Python variables are simply containers for storing data values. Unlike other languages, such as Java, Python has no command for declaring a variable, so you create one the moment you first assign a value to it.
+
+            </p><br>
+            <p> A variable is a placeholder for information you want Python to recall later in the coding process when you need to complete an action. Technically, the variable acts as an address for where the data is stored in memory. A Python variable may be assigned a value of one type and then later re-assigned a value of a different type</p> <br>
+            <p>very simple this is how we give a value for a variable in python:</p>
+            <div class="code">
+                <code>langage = "python" <br>
+                    number = 3</code>
+            </div>
+        </section>
+        <section class="main-section" id="constants">
+            <header><h1>Constants</h1></header>
+            <p>In many other languages, you can create a constant variable, one that does not change, typically using const or constant . In Python, it is common for the name of constants to use an uppercase name.</p>
+            <div class="code">
+                <code>PI = 3.14</code>
+            </div>
+            <p> but these are still changeable.</p>
+        </section>
+        <section class="main-section" id="Global_variables">
+            <header><h1>Global variables</h1></header>
+            <p>A global variable in Python is often declared as the top of the program. In other words, variables that are declared outside of a function are known as global variables. You can access global variables in Python both inside and outside the function.</p>
+            <div class="code">
+                <code>
+                    x = "awesome" <br>
+                    def myfunc(): <br>
+                       <span style="margin-left: 19px;">print("Python is " + x)</span> <br>
+                    myfunc()
+                </code>
+            </div>
+            <p>the output is:</p>
+            <div class="code">
+                <p>Python is awesome</p>
+            </div>
+        </section>
+        <section class="main-section" id="Data_Types">
+            <header><h1>Data Types </h1></header>
+            <p>In programming, data type is an important concept.
+                Variables can store data of different types, and different types can do different things.
+                
+                Python has so many data types built-in by default, in these Documentation we are going to explore the first three data types:</p>
+                <p>str, int, float</p>
+                <h3>Getting the Data Type</h3>
+                <div class="code">
+                    <code>x = 5 <br>
+                        coderint(type(x))</code>
+                </div>
+                <h3>Setting the Data Type</h3>
+                <p>In Python, the data type is set when you assign a value to a variable:</p> <br>
+                <p>String(str):</p>
+                <div class="code">
+                    <code>x = "Hello World"</code>
+                </div>
+                <p>Integer(int):</p>
+                <div class="code">
+                    <code>x = 13</code>
+                </div>
+                <p>float:</p>
+                <div class="code">
+                    <code>x = 23.56</code>
+                </div>
+        </section>
+    </main>
+</body>
+</html>
